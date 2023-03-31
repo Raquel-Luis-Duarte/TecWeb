@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <article>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <progress value="70" max="100">70 %</progress>
+            <div>
+                <label for="Data de nascimento">Data de nascimento:</label>
+                <input type="date" id="data" />
+            </div>
+
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" id="email" />
+            </div>
+
+            <div>
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" id="tell" />
+            </div>
+
+            <div>
+                <label for="mes de adesao">Mes de adesao:</label>
+                <input type="date" id="adesao" />
+            </div>
+
+            <div>
+                <label for="Número de filmes">Número de filmes semanalmente:</label>
+                <input type="number" id="qtdfilmes" />
+            </div>
+
+            <div>
+                <label for="Telefone">Telefone:</label>
+                <input type="date" id="tell" />
+            </div>
+
+            <div>
+                <label for="color">Escolha a cor da sua interface</label>
+                <input type="color" list="presetColors">
+                <datalist id="presetColors">
+                    <option>#ff0000</option>/>
+                    <option>#00ff00</option>
+                    <option>#0000ff</option>
+                </datalist>
+            </div>
+
+            <div>
+                <a href="">Pagina pessoal do cliente</a>
+            </div>
+            <div>
+                <label for="momento do cupom">cupom de desconto</label>
+                <input type="datetime-local" id="mtocupom" />
+            </div>
+            <article>
+                <h3>Escolha o gênero de filmes favorito:</h3>
+                <input type="range" name="Romance" checked>
+                <label for="scales">Romance</label>
+                <input type="range" name="Romance" checked>
+                <label for="scales">Terror</label>
+                <input type="range" name="Terror" checked> <br>
+                <label for="scales">Ação</label>
+                <input type="range" name="Ação" checked>
+                <label for="scales">Comédia</label>
+                <input type="range" name="Comédia" checked>
+                <label for="scales">Fantasia</label>
+            </article>
+
+    </article>
+</body>
+
+</html>
