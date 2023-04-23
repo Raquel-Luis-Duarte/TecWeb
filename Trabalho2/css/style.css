@@ -1,8 +1,15 @@
 p {
   color: blanchedalmond;
-  font-size: 50px;
-  font-weight: 600;
-  text-shadow: black (255, 204, 0) 1px 0 10px;
+  font-size: large;
+}
+h1,
+h2,
+h3 {
+  color: bisque;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 img {
@@ -12,8 +19,72 @@ img {
   box-shadow: black (255, 204, 0) 1px 0 10px;
 }
 
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+article {
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+  background-color: rgb(63, 21, 160);
+}
+#filme1 {
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+  background-color: darkslategray;
+}
+
 label {
-  position: absolute;
-  left: 19px;
-  margin-right: 5px;
+  font-weight: bold;
+  color: bisque;
+}
+section {
+  background-image: url(../netflix.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#filme {
+  float: right;
+  background-color: plum;
+}
+
+#description {
+  font-size: larger;
+}
+
+#descricao {
+  max-width: 800px;
+  background-color: darkmagenta;
+  font-size: 20px;
+}
+iframe {
+  padding: 20px;
+  text-align: center;
+}
+
+summary {
+  color: bisque;
+}
+
+dialog {
+  background-color: deeppink;
+}
+
+#dialog {
+  float: right;
+}
+
+#link {
+  background-color: cornsilk;
+  font-size: larger;
+  color: blueviolet;
+  border-radius: 30px;
+  float: right;
 }
