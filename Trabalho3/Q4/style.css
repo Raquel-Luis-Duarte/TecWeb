@@ -1,0 +1,69 @@
+.paises {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: center;
+}
+
+.pais {
+  background-color: darkgray;
+  color: aliceblue;
+  padding: 10px;
+}
+.conteudo {
+  text-align: justify;
+}
+.conteudo h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 40px 10px 40px;
+  }
+  img {
+    display: none;
+  }
+
+  .paises {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .paises {
+    width: 40%;
+  }
+
+  .conteudo {
+    padding: 40px;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .conteudo {
+    padding: 40px;
+  }
+
+  img {
+    display: block;
+  }
+}
