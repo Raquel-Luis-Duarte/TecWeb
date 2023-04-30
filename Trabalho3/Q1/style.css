@@ -1,0 +1,62 @@
+@media screen and (min-width: 240px) and (max-width: 320px) {
+  div {
+    background-color: black;
+    color: #fff;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  div {
+    background-color: rgb(0, 162, 255);
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  div {
+    background-color: rgb(0, 255, 106);
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  div {
+    background-color: rgb(255, 251, 0);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 800px) {
+  div {
+    background-color: rgb(114, 53, 12);
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  div {
+    background-color: rgb(4, 0, 255);
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  div {
+    background-color: rgb(14, 70, 9);
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  div {
+    background-color: rgb(255, 8, 0);
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  div {
+    background-color: rgb(255, 8, 0);
+  }
+}
+
+@media not (orientation: landscape) {
+  .paisagem {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .paisagem {
+    background-color: deeppink;
+
+    display: block;
+  }
+}
