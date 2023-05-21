@@ -1,0 +1,13 @@
+.pai {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .filho {
+    background-color: aqua;
+    width: 280px;
+    height: 100px;
+    margin: 10px;
+  }
+  

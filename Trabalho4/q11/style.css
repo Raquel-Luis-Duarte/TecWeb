@@ -1,0 +1,14 @@
+
+  .pai {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+
+  }
+  
+  .filho {
+    background-color: rgb(252, 6, 6);
+    width: 100%;
+    margin: 10px;
+  }
+  
