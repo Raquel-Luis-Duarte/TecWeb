@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script>
+      $(function () {
+        $(".button-collapse").sideNav();
+      });
+
+    </script>
+  
+</head>
+<body>
+
+<div  class="card-panel row red lighten-4">
+    <h3 class="center-align card-panel red lighten-1">
+        Quer aprimorar suas habilidades na cozinha e não sabe
+        por onde começar?
+      </h3>
+    
+      <h4 class="center-align">
+        Com o nosso curso, você poderá desenvolver suas habilidade culinárias
+      </h4 class="margem">
+      <h2 class="center-align">Inscreva-se pelo formulário disponível abaixo:</h2>
+
+    <form class="col s12 " action="Receitas.html" method="post">
+        <div  class="input-field col s6">
+            <label class="labelform " for="e-mail">E-mail: </label>
+            <input class="forminput" type="email" id="e-mail" name="email" /> <br>
+
+        </div>
+        
+        <div>
+            <label class="labelform input-field col s12 for="username">Nome:</label>
+            <input class="forminput" type="text" id="username" name="username" /> <br>
+
+        </div>
+            <label class="labelform input-field col s12 for="pwd">Senha:</label>
+            <input class="forminput" type="password" id="pwd" name="pwd" /> <br>
+        <div>
+           
+        <div>
+            <label class="labelform  input-field col s12" for="telefone">Telefone:</label>
+            <input class="forminput" type="tel" id="telefone" placeholder="(99) 99999-9999" /><br>
+    
+
+        </div>
+        
+
+        <strong>Indique qual é o seu nível de conhecimento na cozinha</strong> <br>
+
+        <div>
+            <input type="radio" id="n0" name="nivel" value="N0" />
+            <label class="forminput" for="n0">Não sei fazer nada.</label><br>
+
+        </div>
+       
+        <div>
+            <input type="radio" id="n1" name="nivel" value="N1" />
+            <label class="forminput" for="n1">Consigo seguir algumas receitas que procuro</label> <br>
+
+        </div>
+
+        <div>
+            <input type="radio" id="n2" name="nivel" value="N2" />
+            <label class="forminput" for="n2">Quero dar mais sabor as minhas receitas.</label> <br>
+        </div>
+        
+        <div>
+            <input class="waves-effect waves-light btn" type="submit" value="Confirmar inscrição"  /> <br>
+            <input class="waves-effect waves-light btn" type="reset" value="Limpar" /><br>
+
+        </div>
+        
+      </form>
+    </div>
+</body>
+</html>
